@@ -1,0 +1,151 @@
+
+.container {
+  margin: 20px;
+}
+
+.shareModal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+
+  background: #FFFFFF;
+}
+
+.addUserSection2 {
+  box-sizing: border-box;
+  width: 522px !important;
+
+  font-size: 14px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.addUserSection3 {
+  display: flex;
+  padding: 5px 10px;
+  color: #6B7280;
+  /* background: #FFFFFF; */
+}
+
+.addUserSelect {
+  padding: 2px 20px;
+  margin-bottom: 10px;
+}
+.addUserSelectHover {
+  background: #F3F4F6;
+}
+
+.addUserInput {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+
+  color: #374151;
+}
+
+.bg-white {
+  background-color: white !important;
+}
+
+.addUserPill {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+
+
+  background: #E5E7EB;
+  border-radius: 4px;
+
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+}
+
+.userX {
+  position: absolute;
+  left: 20%;
+  right: 19.94%;
+  top: 19.94%;
+  bottom: 20.06%;
+
+
+  background: #111827;
+}
+
+.addUserSection1 {
+  position: absolute;
+  width: 512px;
+  min-height: 200px;
+  left: 20px;
+  top: 60px;
+  box-sizing: border-box;
+
+
+  border: 1px solid #E5E7EB;
+
+  box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  background: #FFFFFF;
+}
+
+.box-1 {
+  box-sizing: border-box;
+
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* padding: 16px 12px; */
+
+  width: 512px;
+  height: 80px;
+
+  /* gray/200 */
+
+  border-bottom: 1px solid #E5E7EB;
+  border-radius: 8px 8px 0px 0px;
+
+  /* Inside auto layout */
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.box-1-icon {
+
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  top: 10%;
+  bottom: 10%;
+
+
+  background: #6B7280;
+}
+
+.box-1-main {
+  padding-left: 30px;
+  height: 80px;
+
+  border-radius: 8px 8px 0px 0px;
+}
+
+.box-2-main {
+  padding: 10px;
+  max-height: 200px;
+  overflow-y: scroll;
+  overflow-x: scroll;
+}
+
+.section2Select {
+  right: 20px;
+  float: right;
+  position: absolute;
+}
